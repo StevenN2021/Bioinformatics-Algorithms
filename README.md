@@ -1,2 +1,2 @@
 # Bioinformatics-Algorithms
-Algorithms from BIMM 181 
+Rosalind style Bioinformatics programming challenges solved in python 
