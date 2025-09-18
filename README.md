@@ -2,7 +2,7 @@
 Rosalind style Bioinformatics programming challenges and bioinformatics algorithms solved and written from "Bioinformatics Algorithms" by Phillip Compeau and Pavel Pevzner
 
 ## Chapter 1: Replication Origins
-[Reverse Complement of a string](https://github.com/StevenN2021/Bioinformatics-Algorithms/blob/main/Chapter1/reversecomplement.py) 
+[Reverse Complement of a String](https://github.com/StevenN2021/Bioinformatics-Algorithms/blob/main/Chapter1/reversecomplement.py) 
 
 [Pattern Matching](https://github.com/StevenN2021/Bioinformatics-Algorithms/blob/main/Chapter1/patternmatching.py)
 
