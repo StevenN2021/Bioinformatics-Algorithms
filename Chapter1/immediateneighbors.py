@@ -18,6 +18,10 @@ def neighbors(s: str, d: int) -> list[str]:
     symbol = s[i]
     curr = list(s) 
     for x in d[symbol]: 
+      curr[i] = x
+      res.add(curr) 
+  return res
+      
       
     
     
