@@ -16,6 +16,10 @@ def neighbors(s: str, d: int) -> list[str]:
   }
   for i in range(len(s)):
     symbol = s[i]
+    curr = list(s) 
+    for x in d[symbol]: 
+      
+    
     
   
   
