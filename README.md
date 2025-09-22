@@ -14,4 +14,8 @@ Rosalind style Bioinformatics programming challenges and bioinformatics algorith
 
 [Approximate Pattern Matching](https://github.com/StevenN2021/Bioinformatics-Algorithms/blob/main/Chapter1/approximatepatternmatching.py)
 
+[d-Neighborhood of a String](https://github.com/StevenN2021/Bioinformatics-Algorithms/blob/main/Chapter1/immediateneighbors.py)
+
+[Frequent Words with d Mismatches](https://github.com/StevenN2021/Bioinformatics-Algorithms/blob/main/Chapter1/frequentwordswithmismatches.py)
+
 
