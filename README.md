@@ -18,4 +18,6 @@ Rosalind style Bioinformatics programming challenges and bioinformatics algorith
 
 [Frequent Words with d Mismatches](https://github.com/StevenN2021/Bioinformatics-Algorithms/blob/main/Chapter1/frequentwordswithmismatches.py)
 
+## Chapter 2: DNA Patterns
+
 
