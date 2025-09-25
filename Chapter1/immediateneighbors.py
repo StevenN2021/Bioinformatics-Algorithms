@@ -27,11 +27,7 @@ def neighbors(s: str, d: int) -> list[str]:
  
     
 def hamming(s: str, t: str) -> int:
-    count = 0
-    for i in range(len(s)):
-        if s[i] != t[i]:
-            count+=1
-    return count
+    return sum(s[i] != t[i] for i in range(len(s)))
       
     
     

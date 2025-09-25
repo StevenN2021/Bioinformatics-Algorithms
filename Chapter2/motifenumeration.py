@@ -1,42 +1,19 @@
-
-def MotifEnumeration(Dna: list[str], k: int, d: int) -> list[str]:
-    patterns = set()
-    for seq in Dna: 
-        for i in range(len(seq)-k+1):
-            pattern = seq[i:i+k]
-            neighbors = Neighbors(pattern,d)
-            for neighbor in neighbors: 
-                if hamming(neighbor,pattern) <= 2:
-                    
-
-
-def Neighbors(s: str, d: int) -> list[str]:
-    """Generate neighbors of a string within a given Hamming distance."""
-    
-    # base case 
-    if d == 0:
-        return {s}
-    if len(s) == 1:
-        return [s] if d == 0 else ["A","C","T","G"]
+from immediateneighbors.py import neighbors 
+from immediateneighbors.py import hamming
+'''
+Input: Integers k and d, followed by a space-separated collection of strings Dna.
+Output: All (k, d)-motifs in Dna.
+'''
+def motif_enumeration(dna: list[str], k: int, d: int) -> list[str]:
     
     res = set()
-    suffix_neighbors = Neighbors(s[1:],d) 
-    
-    for text in suffix_neighbors:
-        if hamming(s[1:],text) < d: 
-            for nuc in ["A","T","C","G"]:
-                res.add(nuc + text) 
-        else:
-            res.add(s[0] + text)
-              
-    return res
-    
- 
-    
-def hamming(s: str, t: str) -> int:
-    count = 0
-    for i in range(len(s)):
-        if s[i] != t[i]:
-            count+=1
-    return count
-      
+    first_seq = dna[0]
+    n = len(first_seq)
+    for i in range(n-k+1):
+        pattern = first_seq[i:i+k]
+        neighborhood = neighbors(pattern,d)
+        for neighbor in neighborhood:
+            if all(any(hamming(neighbor, seq[j:j+k]) <= d for j in range(len(seq)-k+1)) for seq in dna):
+                res.add(neighbor)
+                
+    return list(res)
