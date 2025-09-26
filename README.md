@@ -20,4 +20,8 @@ Rosalind style Bioinformatics programming challenges and bioinformatics algorith
 
 ## Chapter 2: DNA Patterns
 
+[Motif Enumeration](https://github.com/StevenN2021/Bioinformatics-Algorithms/tree/main/Chapter2#:~:text=Chapter2-,medianstring,-.py)
+
+[Median String](https://github.com/StevenN2021/Bioinformatics-Algorithms/blob/main/Chapter2/motifenumeration.py#:~:text=medianstring.py-,motifenumeration,-.py)
+
 
