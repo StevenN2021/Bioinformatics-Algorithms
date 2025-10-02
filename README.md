@@ -24,4 +24,8 @@ Rosalind style Bioinformatics programming challenges and bioinformatics algorith
 
 [Median String](https://github.com/StevenN2021/Bioinformatics-Algorithms/blob/main/Chapter2/motifenumeration.py#:~:text=medianstring.py-,motifenumeration,-.py)
 
+[Profile Most Probable Kmer](https://github.com/StevenN2021/Bioinformatics-Algorithms/blob/main/Chapter2/profilemostprobable.py)
+
+[Greedy Motif Search](https://github.com/StevenN2021/Bioinformatics-Algorithms/blob/main/Chapter2/greedymotifsearch.py)
+
 
