@@ -1,4 +1,4 @@
-# Bioinformatics-Algorithms
+# bioinformatics-algorithms-in-python
 Rosalind style Bioinformatics programming challenges and bioinformatics algorithms solved and written from "Bioinformatics Algorithms: An Active Learning Approach" by Phillip Compeau and Pavel Pevzner
 
 ## Chapter 1: Replication Origins
