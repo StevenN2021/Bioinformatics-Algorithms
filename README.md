@@ -18,12 +18,6 @@ Rosalind style Bioinformatics programming challenges and bioinformatics algorith
 
 [Frequent Words with d Mismatches](https://github.com/StevenN2021/Bioinformatics-Algorithms/blob/main/Chapter1/frequentwordswithmismatches.py)
 
-[Greedy Motif Search](https://github.com/StevenN2021/bioinformatics-algorithms-in-python/blob/main/Chapter2/greedymotifsearch.py)
-
-[Greedy Motif Search w/ Pseudocounts](https://github.com/StevenN2021/bioinformatics-algorithms-in-python/blob/main/Chapter2/greedymotifsearchpseudo.py)
-
-[Randomized Motif Search (in progress)](https://github.com/StevenN2021/bioinformatics-algorithms-in-python/blob/main/Chapter2/randomizedmotifsearch.py)
-
 ## Chapter 2: DNA Patterns
 
 [Motif Enumeration](https://github.com/StevenN2021/Bioinformatics-Algorithms/tree/main/Chapter2#:~:text=Chapter2-,medianstring,-.py)
@@ -33,6 +27,10 @@ Rosalind style Bioinformatics programming challenges and bioinformatics algorith
 [Profile Most Probable Kmer](https://github.com/StevenN2021/Bioinformatics-Algorithms/blob/main/Chapter2/profilemostprobable.py)
 
 [Greedy Motif Search](https://github.com/StevenN2021/Bioinformatics-Algorithms/blob/main/Chapter2/greedymotifsearch.py)
+
+[Greedy Motif Search w/ Pseudocounts](https://github.com/StevenN2021/bioinformatics-algorithms-in-python/blob/main/Chapter2/greedymotifsearchpseudo.py)
+
+[Randomized Motif Search (in progress)](https://github.com/StevenN2021/bioinformatics-algorithms-in-python/blob/main/Chapter2/randomizedmotifsearch.py)
 
 ## Chapter 3: How do we Assemble Genomes? 
 
