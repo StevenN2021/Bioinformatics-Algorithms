@@ -6,20 +6,21 @@ Output: The overlap graph Overlap(Patterns), in the form of an adjacency list. (
 
 def overlap_graph(patterns: List[str]) -> Dict[str, List[str]]:
     """Forms the overlap graph of a collection of patterns."""
-    suffixes = {}
+    prefixes: Dict[str, List[str]] = {}
     overlap = {}
     k = len(patterns[0])
     for pattern in patterns:
-        suffix = pattern[-(k-1):]
-        print(suffix) 
-        suffixes[suffix] = pattern
+        prefix = pattern[:k-1]
+        if prefix in prefixes:
+            prefixes[prefix].append(pattern)
+        else:
+            prefixes[prefix] = [pattern]
     
     for kmer in patterns:
-        prefix = kmer[:k-1]
-        print(prefix) 
+        suffix = kmer[-(k-1):]
         to_append = []
-        if prefix in suffixes:
+        if suffix in prefixes:
             #kmer is the key 
-            to_append.append(suffixes[prefix])
-            overlap[kmer] = to_append
+            overlap[kmer] = set([pattern for pattern in prefixes[suffix] if suffix == pattern[:k-1]])
     return overlap 
+
