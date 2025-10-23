@@ -36,3 +36,7 @@ Rosalind style Bioinformatics programming challenges and bioinformatics algorith
 
 [Overlap Graph](https://github.com/StevenN2021/bioinformatics-algorithms-in-python/blob/main/Chapter3/overlapgraph.py)
 
+[De Bruijn Graph](https://github.com/StevenN2021/bioinformatics-algorithms-in-python/blob/main/Chapter3/debruijngraph.py)
+
+[Eularian Cycle](https://github.com/StevenN2021/bioinformatics-algorithms-in-python/blob/main/Chapter3/eulariancycle.py)
+
